@@ -28,14 +28,16 @@ The deploy is done using the [Serverless Framework](https://sharp.pixelplumbing.
 sls deploy -v
 ```
 
-So you need Serverless to be installed and configured. So you may need to install the,
+You need Serverless to be installed and configured. Additionally you may need to install some [plugins for size reduction](https://serverless.com/plugins/serverless-plugin-include-dependencies/),
 
 ```shell
 # npm install serverless-plugin-include-dependencies serverless-plugin-common-excludes --save-dev
 yarn add --dev serverless-plugin-include-dependencies serverless-plugin-common-excludes
 ```
 
-Since Sharp library has native extension, You need to deploy from Linux. Otherwise read <https://sharp.pixelplumbing.com/install#aws-lambda>
+Since Sharp library has native extensions, you need Linux binaries when deploying (AWS runs on linux).
+If your **local machine runs Linux** your are fine.
+Otherwise read <https://sharp.pixelplumbing.com/install#aws-lambda>
 
 
 Credits
