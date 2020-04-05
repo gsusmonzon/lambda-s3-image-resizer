@@ -1,0 +1,18 @@
+{
+  "name": "s3_thumbnail_generator",
+  "description": "Generate a thumbnail on image upload",
+  "version": "1.0.0",
+  "author": "jesus Monzon",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.25.2",
+    "stream": "^0.0.2"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.653.0",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "serverless-plugin-common-excludes": "^3.0.0",
+    "serverless-plugin-include-dependencies": "^4.1.0"
+  }
+}
