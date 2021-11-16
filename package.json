@@ -9,7 +9,7 @@
     "stream": "^0.0.2"
   },
   "devDependencies": {
-    "aws-sdk": "^2.653.0",
+    "aws-sdk": "^2.814.0",
     "chai": "^4.2.0",
     "mocha": "^7.1.1",
     "serverless-plugin-common-excludes": "^3.0.0",
